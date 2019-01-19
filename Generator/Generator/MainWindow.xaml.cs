@@ -37,7 +37,20 @@ namespace Generator
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (TextBoxExport.Text != "" && DatePickerFrom.Text != "" && DatePickerTo.Text != "")
+            {
+                DateTime From, To;
+                string Path;
 
+                From = DateTime.Parse(DatePickerFrom.Text);
+                To = DateTime.Parse(DatePickerTo.Text);
+                Path = TextBoxExport.Text;
+
+                Functions.Generate(From, To);
+                Functions.Export(Path);
+            }
+            else
+                MessageBox.Show("Fehler");
         }
     }
 }
