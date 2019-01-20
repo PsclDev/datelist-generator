@@ -13,7 +13,7 @@
             <Setter Property="FontFamily" Value="MarketSans"/>
         </Style>
     </Window.Resources>
-    
+
     <StackPanel Background="#1C1F24">
         <Grid Height="21">
             <Button x:Name="BtnPowerOff" HorizontalAlignment="Right" Width="20" Height="20" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Margin="0 1 5 0" Foreground="White" Click="BtnPowerOff_Click">
@@ -37,7 +37,7 @@
         <Grid Height="50">
             <TextBox x:Name="TextBoxExport" Width="500" Foreground="White" FontFamily="MarketSans" materialDesign:HintAssist.Hint="Export Path" Style="{StaticResource MaterialDesignFloatingHintTextBox}" HorizontalAlignment="Center" Margin="0 0 0 10"/>
         </Grid>
-        <Grid Height="100">
+        <Grid Height="50">
             <Button Width="150" Style="{StaticResource MaterialDesignRaisedDarkButton}" Content="Generieren" Click="Button_Click"/>
         </Grid>
     </StackPanel>
