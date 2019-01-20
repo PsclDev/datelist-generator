@@ -27,11 +27,11 @@
         <Grid Height="85">
             <Grid Width="400" HorizontalAlignment="Left">
                 <TextBlock Text="From" Margin="0 10 25 0" HorizontalAlignment="Right"/>
-                <DatePicker x:Name="DatePickerFrom" Foreground="White" FontSize="15" FontFamily="MarketSans" Width="125" Height="50" Margin="25 20 0 0" HorizontalAlignment="Right" VerticalAlignment="Top" materialDesign:HintAssist.Hint="Date" Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
+                <DatePicker x:Name="DatePickerFrom" Foreground="White" FontSize="15" FontFamily="MarketSans" Width="125" Height="50" Margin="25 25 0 0" HorizontalAlignment="Right" VerticalAlignment="Top" materialDesign:HintAssist.Hint="Date" Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
             </Grid>
             <Grid Width="400" HorizontalAlignment="Right">
                 <TextBlock Text="To" Margin="25 10 0 0"/>
-                <DatePicker x:Name="DatePickerTo" Foreground="White" FontSize="15" FontFamily="MarketSans" Width="125" Height="50" Margin="25 20 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" materialDesign:HintAssist.Hint="Date" Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
+                <DatePicker x:Name="DatePickerTo" Foreground="White" FontSize="15" FontFamily="MarketSans" Width="125" Height="50" Margin="25 25 0 0" HorizontalAlignment="Left" VerticalAlignment="Top" materialDesign:HintAssist.Hint="Date" Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
             </Grid>
         </Grid>
         <Grid Height="50">
